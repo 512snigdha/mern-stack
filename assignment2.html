@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-16">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <style>
+
+        .survey-container {
+            background-color:azure;
+            margin-left: auto;
+            margin-right: auto;
+            width: fit-content;
+            padding: 2%;
+            border-radius: 6px;
+        }
+
+        h2{
+            text-align: center;
+
+        }
+        body{
+            font: bolder;
+            font-style: inherit;
+            justify-content: center;
+            align-items: center;
+            background-color: #05c16b;
+        }
+       
+        #comments , #name , #email, #age , #personality{
+            width: 100%;
+            height: fit-content;
+
+             }  
+        .submit-button {
+            width: 100%;
+            display: block;
+            padding: 10px;
+            background-color: #05c16b;
+            color: rgb(15, 3, 3);
+            font-size: 18px;
+            border: black;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h2>Survey Form</h2>
+    <div class="survey-container">
+          <form action="#" method="POST">
+
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your Name" required> <br><br>
+    
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+             
+            <label for="age">Age</label> <br>
+            <input type="int" id="age" name="age" placeholder="Enter your age"  required><br><br>
+    
+            
+       <label for="option">Which option best describes you?</label><br><br>
+         <select name="personality" id="personality">
+            <option value="student">Student</option><br>
+            <option value="Devloper">Devloper</option><br>
+            <option value="Coder">Coder</option><br>
+            <option value="Dancer">Dancer</option><br>
+         </select><br><br>
+    
+
+        
+       <label for="option">Would you refer GreeksforGreeks to a friend?</label><br><br>
+             <label><input type="radio"  value="1">Yes</label> <br><br>
+                <label><input type="radio" value="2">No</label><br><br>
+                <label><input type="radio" value="3">Maybe</label><br><br>
+            
+
+            
+          <label for="option">Languages and Frameworks known(check all that apply)</label><br><br>
+                <label><input type="checkbox" >C</label> <br><br>
+                <label><input type="checkbox" >C++</label><br><br>
+                <label><input type="checkbox"  >Java</label><br><br>
+                <label><input type="checkbox" >Python</label><br><br>
+                <label><input type="checkbox" >JavaScript</label><br><br>
+                <label><input type="checkbox" >React</label> <br><br>
+                <label><input type="checkbox"  >Angular</label><br><br>
+                <label><input type="checkbox"  >Django</label><br><br>
+                <label><input type="checkbox" >Spring</label> <br><br>
+
+         <label for="comments">Any comments or suggestions</label> <br><br>
+            <textarea id="comments" name="comments" placeholder=" "> </textarea> <br><br>
+    
+            <button type="submit" class="submit-button">Submit</button>
+        </form>
+      </div>    
+</body>
+</html>
