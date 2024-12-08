@@ -1,6 +1,6 @@
 const myArr = [4,9,6,7,5,1,2]
 const marvel_heros = ["thor", "ironman", "spiderman"]
-const dc_heros = ["superman", "flash", "batman"]
+const dc_heros = ["superman", "flash", "batman", "spiderman"]
 
 marvel_heros.push(dc_heros);
 
