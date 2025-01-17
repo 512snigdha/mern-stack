@@ -8,13 +8,3 @@ const obj3 = {...obj1,...obj2} //easy
 console.log(obj3);
 
 
-const users = [
-    {
-        id : 1,
-        email : "snigh7@gmail.com"
-    }
-]
-
-users.concat 
-users[1].email //[1] is access object
-console.log(users);

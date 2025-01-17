@@ -20,4 +20,6 @@ function cat() {
     console.log(this.username);
 }
 
-cat()
+cat() //undefined
+
+

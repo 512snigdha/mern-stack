@@ -1,6 +1,6 @@
 let a= 10
 const b = 20 // global
-var c = 30
+var c = 30 
 if(true) {} //scope of the prg
 
 console.log(a);
@@ -20,3 +20,5 @@ if(true) {
     
 }
  console.log(c);
+
+ 
